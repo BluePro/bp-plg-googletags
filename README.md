@@ -1,4 +1,1 @@
-bp-plg-googletags
-=================
-
-Joomla! Google Tag Manager plugin
+#Joomla! Google Tag Manager plugin

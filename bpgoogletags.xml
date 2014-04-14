@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<install version="2.5" type="plugin" group="system">
+	<name>BluePro Google Tag Manager</name>
+	<creationDate>2013-06-01</creationDate>
+	<author>Ondřej Hlaváč</author>
+	<authorEmail>info@bluepro.cz</authorEmail>
+	<authorUrl>http://www.bluepro.cz</authorUrl>
+	<copyright>Ondřej Hlaváč 2013</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0</version>
+	<description>Google Tag Manager</description>
+	<files>
+		<filename plugin="bpgoogletags">bpgoogletags.php</filename>
+	</files>
+	<config>
+	  <fields name="params" addfieldpath="/plugins/system">
+	  	<fieldset name="basic">
+		  <field name="container" type="text" default="" label="Container ID" description="Container ID provided by Google. The format is: GTM-XXXX"/>
+		</fieldset>		
+	  </fields>
+	</config>		
+</install>
